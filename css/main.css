@@ -254,7 +254,25 @@ body {
   border-radius: 20px;
 }
 
+.container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
 .form-input-a {
+  border-radius: 15px;
+  color: #000000;
+  border: #a6192e 1px solid;
+  width: 100%;
+  font-size: 24px;
+  height: 36px;
+  margin: 10px 0 10px 0;
+  outline: none;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.form-input-b {
   border-radius: 15px;
   color: #000000;
   border: #a6192e 1px solid;
@@ -263,29 +281,30 @@ body {
   height: 36px;
   margin: 10px 0 10px 0;
   outline: none;
-}
-
-.form-input-b {
-  border-radius: 15px;
-  color: #000000;
-  border: #a6192e 1px solid;
-  width: 36%;
-  font-size: 24px;
-  height: 36px;
-  margin: 10px 0 10px 0;
-  outline: none;
+  box-sizing: border-box;
+  padding: 15px;
 }
 
 .form-input-c {
   border-radius: 15px;
   color: #000000;
   border: #a6192e 1px solid;
-  width: 20%;
+  width: 40%;
   font-size: 24px;
   height: 36px;
   margin: 10px 0 10px 0;
   outline: none;
   margin-left: 50px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 }
 
 .nombre {
@@ -300,7 +319,7 @@ body {
 }
 
 textarea {
-  width: 60%;
+  width: 100%;
   height: 90px;
   border-radius: 50px;
   margin: 10px 0 10px 0;
@@ -311,6 +330,7 @@ textarea {
   font-size: 16px;
   resize: none;
   font-size: 24px;
+  padding: 15px;
 }
 
 a.button1 {
@@ -345,6 +365,8 @@ a.button1:hover {
     text-decoration: none;
   }
 }
+
+/* ---------------------------------------------Footer--------------------------------------*/
 
 .footer {
   margin: 40px 0 0 0;
@@ -405,4 +427,222 @@ a.button1:hover {
   width: 30px;
   height: 30px;
   margin: 0 15px 0 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .info,
+  .rights,
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 10px;
+  }
+
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 15px 0 15px;
+  }
+
+  .info1,
+  .info2,
+  .info3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 30px 10px;
+    color: white;
+    font-size: smaller;
+  }
+}
+
+/*------------------- Quienes somos cards-------------------*/
+.titulo-conozca {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-conozca h1 {
+  color: #a6192e;
+  border-bottom: #a6192e solid 1px;
+}
+h1 {
+  font-size: 34px;
+  padding: 10px;
+}
+
+.container {
+  margin-top: 20px;
+  max-width: 1100px;
+  width: 80%;
+}
+
+.container h4,
+.container p {
+  padding: 10px;
+}
+
+.sub-container {
+  border-bottom: black solid 1px;
+}
+
+.row {
+  display: flex;
+}
+
+.col-1-4 {
+  width: 25%;
+  margin: 40px 30px 0 30px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+}
+
+.card-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.icon-card {
+  height: 25px;
+  width: 25px;
+  color: #a6192e;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    width: 100%;
+  }
+
+  .col-1-4 {
+    width: 50%;
+    margin: 0px 30px 0 30px;
+  }
+
+  .card {
+    width: 300px;
+    height: 300px;
+  }
+
+  .card h4,
+  .card p {
+    font-size: x-small;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+  }
+}
+
+/*  Whatsapp logo flotante*/
+
+.icon-float {
+  position: fixed;
+  width: 250px;
+  height: 101px;
+  bottom: 40px;
+  right: 0px;
+  text-align: center;
+  z-index: 100;
+}
+
+@media only screen and (max-width: 768px) {
+  .icon-float {
+    width: 170px;
+    height: 68px;
+  }
+}
+
+.ms-container {
+  min-width: 100%;
+  height: 300px;
+}
+
+.mision {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #a6192e;
+}
+
+.vision {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #323031;
+}
+
+.borderb {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.borderb h1 {
+  margin-top: 10px;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.comillas {
+  width: 70px;
+  height: 70px;
+}
+.comillas-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ms-container {
+    min-width: 100%;
+    background-color: purple;
+    height: 200px;
+  }
+
+  .comillas {
+    width: 30px;
+    height: 30px;
+  }
+
+  .borderb h1 {
+    margin-top: 5px;
+    font-size: medium;
+  }
+  .pp {
+    font-size: 10px;
+  }
+}
+
+.mision-vision {
+  margin-top: 90px;
+}
+
+.pp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
 }
