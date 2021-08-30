@@ -530,7 +530,7 @@ h1 {
 
   .col-1-4 {
     width: 50%;
-    margin: 0px 30px 0 30px;
+    margin: 0px 10px 0 10px;
   }
 
   .card {
@@ -549,6 +549,9 @@ h1 {
 
   .row {
     display: flex;
+  }
+  .ca {
+    height: 120px;
   }
 }
 
@@ -645,4 +648,235 @@ h1 {
   justify-content: center;
   text-align: center;
   color: #ffffff;
+}
+
+.sub-container-consultoria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sub-container-consultoria {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sub-container-consultoria h1 {
+  margin: 20px 0 20px 0;
+}
+
+.container-consultoria {
+  margin: 50px 0 50px 0;
+  background-color: #a6192e;
+  min-width: 100%;
+  height: 180px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sub-container-consultoria h1 {
+    font-size: x-large;
+  }
+  .sub-container-consultoria p {
+    font-size: small;
+  }
+}
+
+.sub-container-sistema {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sub-container-sistema {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  margin: 20px 0 20px 0;
+}
+
+.sub-container-sistema h1 {
+  margin: 20px 0 20px 0;
+  color: #a6192e;
+  border-bottom: 1px solid #a6192e;
+}
+
+.container-sistema {
+  margin: 50px 0 50px 0;
+  background-color: #ffffff;
+  min-width: 100%;
+  height: 180px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sub-container-sistema h1 {
+    font-size: x-large;
+  }
+  .sub-container-sistema p {
+    font-size: small;
+  }
+}
+
+.container-areas {
+  margin-top: 20px;
+  max-width: 1100px;
+  width: 80%;
+}
+
+.titulo-areas h2 {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 100px;
+  color: #a6192e;
+}
+
+.titulo-areas {
+  margin-top: 100px;
+}
+
+.sub-container-areas {
+  text-align: center;
+}
+
+.ca {
+  height: 250px;
+}
+
+.servicios-h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #a6192e;
+}
+
+.servicios-h1 h1 {
+  padding: 15px;
+  border-bottom: #a6192e solid 1px;
+}
+
+.servicios {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #a6192e;
+  background-color: #323031;
+  height: 250px;
+}
+
+.servicios p {
+  font-size: x-large;
+}
+
+.var-bullet {
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin: 0 50%;
+}
+
+.sub-container-varstate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: #000000;
+  margin: 20px 0 20px 0;
+}
+
+.container-varstate {
+  margin: 0 auto;
+  background-color: #ffffff;
+  max-width: 100%;
+  height: 180px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sub-container-varstate h4 {
+    font-size: x-large;
+  }
+  .sub-container-varstate p {
+    font-size: small;
+  }
+}
+
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.custom-list {
+  list-style: none;
+  padding-left: 0;
+}
+.custom-list li {
+  position: relative;
+  padding-left: 50px;
+  margin: 40px 0 20px 0;
+}
+.custom-list li:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url("/img/varstate/bullet-800px-x-600px-Azul.png");
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.var-h1 {
+  background-color: #051c2c;
+  color: #ffffff;
+  height: 200px;
+  margin-bottom: 70px;
+}
+
+.var-logo {
+  width: 200;
+  height: 250;
+}
+
+.logo-2 {
+  width: 300px;
+  height: 131.25.5px;
+  margin: 50px auto 0 auto;
+  align-items: center;
+}
+
+.logodiv-2 {
+  margin: 0 auto 40px auto;
+  background-color: #ffffff;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.var-img {
+  margin: 80px;
+  height: 600px;
+  width: 800px;
+}
+
+@media only screen and (max-width: 768px) {
+  .var-img {
+    margin: 80px;
+    height: 187.5px;
+    width: 250px;
+    margin-top: 200px;
+  }
 }
