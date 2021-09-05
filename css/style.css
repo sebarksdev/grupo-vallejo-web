@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "operetta_12medium";
+  src: url("operetta12-medium-webfont.woff2") format("woff2"),
+    url("operetta12-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

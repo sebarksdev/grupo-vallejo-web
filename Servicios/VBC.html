@@ -47,14 +47,29 @@
             </a>
             <input type="checkbox" id="sm1" />
             <ul class="sub-menu">
-              <li><a href="#">Consultoría (VBC)</a></li>
+              <li>
+                <a class="br" href="#"
+                  >VBC (Consultoría)
+                  <span class="drop-icon">►</span>
+                  <label title="Toggle Drop-down" class="drop-icon" for="sm1"
+                    >►</label
+                  >
+                </a>
+                <input type="checkbox" id="sm1" />
+                <ul class="sub-menu">
+                  <li><a href="Servicios/VBC.html">Empresarial</a></li>
+                  <li>
+                    <a href="#">Corporativa</a>
+                  </li>
+                </ul>
+              </li>
               <li>
                 <a href="/Servicios/Varstate.html"
                   >Asesoría en inversión Inmobiliaria (Varstate)</a
                 >
               </li>
               <li>
-                <a href="/Servicios/Vauto.html">Automatización (Vauto)</a>
+                <a href="#">Automatización (Vauto)</a>
               </li>
               <li>
                 <a href="/Servicios/Vadi.html"
@@ -68,9 +83,64 @@
           </li>
           <li><a class="br" href="/quienesSomos.html">Quienes somos</a></li>
           <li><a class="br" href="#">Blog</a></li>
-          <li><a class="contact" href="/contacto.html">Contactenos</a></li>
+          <li><a class="contact" href="#ir-a-formulario">Contactenos</a></li>
         </ul>
       </nav>
+
+      <!-- The overlay -->
+      <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <!-- Overlay content -->
+        <div class="overlay-content mobile">
+          <nav>
+            <ul>
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="quienesSomos.html">Quiénes somos</a></li>
+              <li class="hover-servicios">
+                <a href="#">Servicios▼</a>
+                <ul class="ul-1">
+                  <li>
+                    <a href="#">VBC (Construcción) ►</a>
+                    <ul class="hover-vbc">
+                      <li><a href="/Servicios/VBC.html">Empresarial</a></li>
+                      <li><a href="">Corporativo</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="/Servicios/Varstate.html"
+                      >Asesoría en inversión Inmobiliaria (Varstate)</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#">Automatización (Vauto)</a>
+                  </li>
+                  <li>
+                    <a href="/Servicios/Vadi.html"
+                      >Distribución y Logística (Vadi)</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/Servicios/V-EMI.html"
+                      >Estrategia Comercial (V-EMI)</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <span class="ct" onclick="openNav()"
+        ><img class="mobile-menu-icon" src="/img/barras-de-servicio.png" alt=""
+      /></span>
     </header>
 
     <div class="logodiv-2">
@@ -109,20 +179,32 @@
             obtener un mejor desempeño de manera ordenada
           </p>
         </div>
-        <div class="sub-container-sistema">
-          <h4>Según la definición ISO:</h4>
+        <div class="sub-container-varstate">
+          <ul class="custom-list-vadi">
+            <li>
+              Protocolos por seguir en una actividad productiva, que pretende una cultura de mejora continua y aprendizaje organizacional.  
+            </li>
+            <li>
+              Accede a las corporaciones a definir, organizar e implementar los lineamientos generales y de operación. 
+            </li>
+            <li>
+              Permite la optimización de recursos y un mejor desempeño de manera integral. 
+            </li>
+            <li>
+              Adoptar un sistema de gestión en una empresa es garantía de que se cumplen los procesos y estándares estipulados por normas internacionales. 
+            </li>
+          </ul>
         </div>
-        <div class="sub-container-sistema">
-          <p>
-            Es el conjunto de elementos de una orgnización, que están
-            interrelacionados o que interactúan entre
-            <br />
-            sí, para establecer políticas, objetivos y procesos para lograg las
-            metas planteadas.
-          </p>
-        </div>
+       
+       
       </div>
     </section>
+    <div class="vbc-video">
+      <video width="100%" height="" autoplay muted loop >
+        <source src="/img/VBC/Video 1.mp4" type="video/mp4" />
+        not supported by your browser
+      </video>
+    </div>
 
     <section class="section-areas">
       <div class="titulo-areas">
@@ -331,27 +413,43 @@
           
         </div>
       </div>
-
-      
-
-     
-
-      
       </div>
     </section>
 
-    <section class="section-servicios">
-      <div>
-        <div class="servicios-h1">
-          <h1 >Servicios VBC</h1>
+    <section class="section-vbc-bpo">
+      <div class="container-sistema">
+        <div class="sub-container-sistema">
+          <h1 class="h1">BPO</h1>
         </div>
-
-        <div class="servicios">
-          <P>Background Check <br>PEP <br>Estudio de Mercado <br>Control de Inventarios</P>
-    
-
+        <div class="sub-container-sistema">
+          <p>
+            La subcontratación de procesos empresariales (Business Process Outsourcing) reside <br> en la tercerización de procesos y roles de trabajo bajo la modalidad de Outsourcing o <br> subcontratación, brindando la oportunidad de destinar recursos y esfuerzos a las <br> áreas esenciales de la compañía. 
+          </p>
         </div>
-    </div>
+        <div class="sub-container-sistema">
+          <p>
+            En VBC ponemos a disposición de las empresas; profesionales multidisciplinarios con <br> amplia experiencia capaces de dirigir y administrar organizaciones de cualquier giro <br> comercial por medio de los siguientes roles:  
+          </p>
+        </div>
+        <div class="sub-container-varstate">
+          <ul class="custom-list-vadi">
+            <li>Técnicos </li>
+            <li>
+              Auxiliares 
+            </li>
+            <li>Analistas  </li>
+            <li>
+              Consultores 
+            </li>
+            <li>
+              Ingenieros   
+            </li>
+            <li>
+              Gerentes   
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <footer class="">

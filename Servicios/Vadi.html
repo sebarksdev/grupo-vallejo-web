@@ -47,7 +47,22 @@
             </a>
             <input type="checkbox" id="sm1" />
             <ul class="sub-menu">
-              <li><a href="/Servicios/VBC.html">Consultoría (VBC)</a></li>
+              <li>
+                <a class="br" href="#"
+                  >VBC (Consultoría)
+                  <span class="drop-icon">►</span>
+                  <label title="Toggle Drop-down" class="drop-icon" for="sm1"
+                    >►</label
+                  >
+                </a>
+                <input type="checkbox" id="sm1" />
+                <ul class="sub-menu">
+                  <li><a href="/Servicios/VBC.html">Empresarial</a></li>
+                  <li>
+                    <a href="#">Corporativa</a>
+                  </li>
+                </ul>
+              </li>
               <li>
                 <a href="/Servicios/Varstate.html"
                   >Asesoría en inversión Inmobiliaria (Varstate)</a
@@ -66,9 +81,62 @@
           </li>
           <li><a class="br" href="/quienesSomos.html">Quienes somos</a></li>
           <li><a class="br" href="#">Blog</a></li>
-          <li><a class="contact" href="/contacto.html">Contactenos</a></li>
+          <li><a class="contact" href="#ir-a-formulario">Contactenos</a></li>
         </ul>
       </nav>
+
+      <!-- The overlay -->
+      <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <!-- Overlay content -->
+        <div class="overlay-content mobile">
+          <nav>
+            <ul>
+              <li><a href="/index.html">Inicio</a></li>
+              <li><a href="quienesSomos.html">Quiénes somos</a></li>
+              <li class="hover-servicios">
+                <a href="#">Servicios▼</a>
+                <ul class="ul-1">
+                  <li>
+                    <a href="#">VBC (Construcción) ►</a>
+                    <ul class="hover-vbc">
+                      <li><a href="/Servicios/VBC.html">Empresarial</a></li>
+                      <li><a href="">Corporativo</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="/Servicios/Varstate.html"
+                      >Asesoría en inversión Inmobiliaria (Varstate)</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/Servicios/Vauto.html">Automatización (Vauto)</a>
+                  </li>
+                  <li>
+                    <a href="#">Distribución y Logística (Vadi)</a>
+                  </li>
+                  <li>
+                    <a href="/Servicios/V-EMI.html"
+                      >Estrategia Comercial (V-EMI)</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <span class="ct" onclick="openNav()"
+        ><img class="mobile-menu-icon" src="/img/barras-de-servicio.png" alt=""
+      /></span>
     </header>
 
     <div class="logodiv-2">
@@ -87,14 +155,7 @@
       <div class="sub-container-varstate">
         <ul class="custom-list-vadi">
           <li>Asesoría Logística</li>
-          <li>
-            Trámites y procesos de exportación e importación de productos o
-            materia prima
-          </li>
-          <li>Gestión de Venta Retail a nivel local de productos de consumo</li>
-          <li>
-            Portafolio de productos único Vadi y de apoyo a la produccion local
-          </li>
+          <li>Tercerización de logística</li>
         </ul>
       </div>
     </div>
