@@ -16,13 +16,14 @@ h3,
 h4,
 h5,
 h6,
-p,
-a,
-ul,
-li,
-nav,
-label {
+a {
   font-family: "operetta_12medium";
+}
+
+p,
+ul,
+li {
+  font-family: "Avenir LT Std 45 Book";
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon)
@@ -918,6 +919,11 @@ h1 {
     width: 33.33333333333333%;
 
     height: 150px;
+    height: 150px;
+  }
+
+  .col-1-2 {
+    width: 50%;
   }
 }
 
@@ -934,9 +940,18 @@ h1 {
   width: 33.33333333333333%;
 }
 
+.col-1-2 {
+  width: 50%;
+}
+
 .card-img-vauto {
   max-width: 70%;
   max-height: 70%;
+}
+
+.card-img-vemi {
+  max-width: 47%;
+  max-height: 47%;
 }
 
 .vauto-h1 {
