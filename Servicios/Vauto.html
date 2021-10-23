@@ -36,7 +36,7 @@
         ></label>
         <input type="checkbox" id="tm" />
         <ul class="main-menu clearfix">
-          <li><a class="br" href="index.html">Inicio</a></li>
+          <li><a class="br" href="/index.html">Inicio</a></li>
           <li>
             <a class="br" href="#"
               >Servicios
@@ -81,9 +81,9 @@
               </li>
             </ul>
           </li>
-          <li><a class="br" href="/quienesSomos.html">Quienes somos</a></li>
+          <li><a class="br" href="/quienesSomos.html">¿Quiénes somos?</a></li>
           <li><a class="br" href="#">Blog</a></li>
-          <li><a class="contact" href="#ir-a-formulario">Contactenos</a></li>
+          <li><a class="contact" href="#ir-a-formulario">Contáctenos</a></li>
         </ul>
       </nav>
 
@@ -99,7 +99,7 @@
           <nav>
             <ul>
               <li><a href="/index.html">Inicio</a></li>
-              <li><a href="quienesSomos.html">Quiénes somos</a></li>
+              <li><a href="quienesSomos.html">¿Quiénes somos?</a></li>
               <li class="hover-servicios">
                 <a href="#">Servicios▼</a>
                 <ul class="ul-1">
@@ -107,7 +107,9 @@
                     <a href="#">VBC (Construcción) ►</a>
                     <ul class="hover-vbc">
                       <li><a href="/Servicios/VBC.html">Empresarial</a></li>
-                      <li><a href="">Corporativo</a></li>
+                      <li>
+                        <a href="/Servicios/VBC-corp.html">Corporativo</a>
+                      </li>
                     </ul>
                   </li>
                   <li>
@@ -131,7 +133,7 @@
                 </ul>
               </li>
               <li><a href="#">Blog</a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a href="#">Contáctenos</a></li>
             </ul>
           </nav>
         </div>
@@ -171,66 +173,78 @@
       </p>
     </div>
 
-    <div class="container-vauto">
-      <h4>
-        Facilitamos para los clientes los siguientes productos y servicios:
-      </h4>
-      <div class="row-vauto">
-        <div class="col-1-2 card">
-          <div class="sub-container-areas">
-            <img
-              class="card-img-vemi"
-              src="/img/Vauto/automatizacion-procesos-icon-800px-x-600px.png"
-              alt=""
-            />
-          </div>
-          <div class="sub-container-areas">
-            <p>Software manejo de planillas (RRHH)</p>
-          </div>
+    <div class="row-vauto-2">
+      <div class="col-1-3 servicios-corporativos">
+        <div class="sub-container-areas servicios-corporativos">
+          <img
+            class="card-img-vemi"
+            src="/img/Vauto/tabs/Servicios-Corporativos-Icon-800px-x-800px.png"
+            alt=""
+          />
         </div>
-        <div class="col-1-2 card">
-          <div class="sub-container-areas">
-            <img
-              class="card-img-vemi"
-              src="/img/Vauto/NIIF-icon-800px-x-600.png"
-              alt=""
-            />
-          </div>
-          <div class="sub-container-areas">
-            <p>
-              Software contable basado en las Normas Internacionales de
-              Información Financiera (NIIF)
-            </p>
+        <div class="sub-container-areas">
+          <h1>Servicios corporativos</h1>
+          <button id="toggle">▼</button>
+          <div id="first">
+            <div class="sub">
+              <a href="/Servicios/DesarrolloSoftware.html"
+                >Desarrollo de Software</a
+              >
+            </div>
+            <div class="sub2">
+              <a href="/Servicios/ProjectManagement.html">Project Management</a>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="row-vauto">
-        <div class="col-1-2 card">
-          <div class="sub-container-areas">
-            <img
-              class="card-img-vemi"
-              src="/img/Vauto/ERP’s,-CRM’s-icon-800px-x-600px.png"
-              alt=""
-            />
-          </div>
-          <div class="sub-container-areas">
-            <p>ERP’s, CRM’s, Apps, Websites</p>
+      <div class="col-1-3 productos-corporativos">
+        <div class="sub-container-areas">
+          <img
+            class="card-img-vemi"
+            src="/img/Vauto/tabs/Productos-Corporativos-Icon-800px-x-800px.png"
+            alt=""
+          />
+        </div>
+        <div class="sub-container-areas">
+          <h1>Productos corporativos</h1>
+          <button id="toggle2">▼</button>
+          <div id="second">
+            <div class="sub">
+              <a href="/Servicios/VMS.html"
+                >VEMS (Vallejo Enterprise Management System)</a
+              >
+            </div>
+            <div class="sub2">
+              <a href="/Servicios/PID.HTML"
+                >PID Program (Personal Integral Development Program)</a
+              >
+            </div>
           </div>
         </div>
-        <div class="col-1-2 card">
-          <div class="sub-container-areas">
-            <img
-              class="card-img-vemi"
-              src="/img/Vauto/Desarrollo-de-Software.png"
-              alt=""
-            />
-          </div>
-          <div class="sub-container-areas">
-            <p>
-              Diseño y desarrollo de software a la medida de cada empresa según
-              sus requerimientos específicos.
-            </p>
+      </div>
+      <div class="col-1-3 tecnologias-seguridad">
+        <div class="sub-container-areas">
+          <img
+            class="card-img-vemi"
+            src="/img/Vauto/tabs/Tecnologias-de-la-Seguridad-Icon-800px-x-800px.png"
+            alt=""
+          />
+        </div>
+        <div class="sub-container-areas">
+          <h1>Tecnologías de la seguridad</h1>
+          <button id="toggle3">▼</button>
+          <div id="third">
+            <div class="sub">
+              <a href="/Servicios/ciberseguridad.html">Ciberseguridad</a>
+            </div>
+            <div class="sub2">
+              <a href="/Servicios/commandcenter.html">Command Center</a>
+            </div>
+            <div class="sub2">
+              <a href="/Servicios/seguridadelectronica.html"
+                >Servicios de seguridad electrónica y control de acceso</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -347,5 +361,6 @@
         src="/img/Inicio/mensajeria-whatsapp-800px-x-322px.png"
         alt="Whatsapp"
     /></a>
+    <script src="/js/nav.js"></script>
   </body>
 </html>
