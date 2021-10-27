@@ -1170,11 +1170,11 @@ h4 {
 }
 
 .section-background-check {
-  margin-bottom: 300px;
+  margin-bottom: 250px;
 }
 
 .section-pid {
-  margin-bottom: 600px;
+  margin-bottom: 350px;
 }
 
 .section-estudios-mercado {
@@ -1185,7 +1185,7 @@ h4 {
 }
 
 .section-expats {
-  margin-bottom: 580px;
+  margin-bottom: 350px;
 }
 .section-img {
   margin: 00px 0 500px 0;
@@ -1332,12 +1332,20 @@ h4 {
 }
 
 .section-sistema-corp {
-  margin: 0 0 850px 0;
+  margin: 0 0 300px 0;
+}
+.isos {
+  margin: 0 0 900px 0;
 }
 
 .img-corp {
   height: 170px;
   width: 170px;
+  margin-bottom: 15px;
+}
+.img-corp-2 {
+  height: 170px;
+  width: 210px;
   margin-bottom: 15px;
 }
 

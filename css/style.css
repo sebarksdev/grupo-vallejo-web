@@ -8,8 +8,8 @@
 
 @font-face {
   font-family: "Avenir LT Std 45 Book";
-  src: url("/css/fonts/AvenirLTStd-Roman.woff") format("woff"),
-    url("/css/fonts/AvenirLTStd-Roman.woff2") format("woff2");
+  src: url("./fonts/AvenirLTStd-Roman.woff") format("woff"),
+    url("./fonts/AvenirLTStd-Roman.woff2") format("woff2");
   font-style: normal;
   font-stretch: normal;
 }
