@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grupo Vallejo</title>
+    <link
+      rel="shortcut icon"
+      href="img/Inicio/isotipo-40x40.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/Grid.css" /> -->
+    <link rel="" type="text/css" href="/css/fonts/stylesheet.css" />
+    <link rel="" type="text/css" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <section class="gray">
+        <div class="container">
+          <img
+            class="logo"
+            src="/img/Inicio/logotipo-inicio.png"
+            alt="Grupo Vallejo"
+          />
+        </div>
+      </section>
+
+      <nav id="menu">
+        <label for="tm" id="toggle-menu"
+          >Menu <span class="drop-icon"></span
+        ></label>
+        <input type="checkbox" id="tm" />
+        <ul class="main-menu clearfix">
+          <li><a class="br" href="index.html">Inicio</a></li>
+          <li>
+            <a class="br" href="#"
+              >Servicios
+              <span class="drop-icon">▾</span>
+              <label title="Toggle Drop-down" class="drop-icon" for="sm1"
+                >▾</label
+              >
+            </a>
+            <input type="checkbox" id="sm1" />
+            <ul class="sub-menu">
+              <li>
+                <a class="br" href="#"
+                  >VBC (Consultoría)
+                  <span class="drop-icon">►</span>
+                  <label title="Toggle Drop-down" class="drop-icon" for="sm1"
+                    >►</label
+                  >
+                </a>
+                <input type="checkbox" id="sm1" />
+                <ul class="sub-menu">
+                  <li><a href="vbc.html">Empresarial</a></li>
+                  <li>
+                    <a href="vbc-corp.html">Corporativa</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="varstate.html"
+                  >Asesoría en inversión Inmobiliaria (Varstate)</a
+                >
+              </li>
+              <li>
+                <a href="vauto.html">Automatización (Vauto)</a>
+              </li>
+              <li>
+                <a href="vadi.html">Distribución y Logística (Vadi)</a>
+              </li>
+              <li>
+                <a href="v-emi.html">Estrategia Comercial (V-EMI)</a>
+              </li>
+            </ul>
+          </li>
+          <li><a class="br" href="quienesSomos.html">¿Quiénes somos?</a></li>
+          <li><a class="br" href="blog.html">Blog</a></li>
+          <li><a class="contact" href="#ir-a-formulario">Contáctenos</a></li>
+        </ul>
+      </nav>
+
+      <section class="mob-nav-bar">
+        <span class="ct" onclick="openNav()"
+          ><div class="container">
+            <img
+              class="mobile-menu-icon"
+              src="/img/barras-de-servicio.png"
+              alt=""
+            /></div
+        ></span>
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+
+          <!-- Overlay content -->
+          <div class="container">
+            <div class="navbar">
+              <a href="index.html"> <b>Inicio</b></a>
+
+              <div class="subnav">
+                <button id="cambiar" class="subnavbtn">
+                  <b>Servicios</b> <i class="fa fa-caret-down"></i>
+                </button>
+
+                <div id="submenu-servicios" class="subnav-content">
+                  <div class="subnav dark-grey">
+                    <button id="cambiar2" class="subnavbtn dark-grey">
+                      VBC (Consultoría) <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="submenu-servicios2" class="subnav-content">
+                      <a class="light-grey bp" href="vbc.html">Empresarial</a>
+                      <a class="light-grey bp" href="vbc-corp.html"
+                        >Corporativa</a
+                      >
+                    </div>
+                  </div>
+                  <a class="dark-grey" href="varstate.html"
+                    >Varstate (Asesoría en inversión Inmobiliaria)</a
+                  >
+                  <a class="dark-grey" href="vauto.html"
+                    >Vauto (Automatización)</a
+                  >
+                  <a class="dark-grey" href="vadi.html"
+                    >Vadi (Distribución y Logística)</a
+                  >
+                  <a class="dark-grey" href="v-emi.html"
+                    >V-EMI (Estrategia Comercial)</a
+                  >
+                </div>
+              </div>
+
+              <a href="quienesSomos.html"> <b>¿Quiénes somos?</b></a>
+              <a href="blog.html"> <b>Blog</b></a>
+              <a href="#ir-a-formulario"> <b>Contáctenos</b> </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="sectionDS">
+      <div>
+        <img
+          src="/img/Vauto/tabs/Servicios-Corporativos-Project-Management-1920px-x-690.png"
+          alt=""
+          class="banner"
+        />
+      </div>
+    </section>
+
+    <section class="sectionDS">
+      <div class="container">
+        <div>
+          <h1 class="">Project Management</h1>
+
+          <p class="">
+            En VBC ponemos a su disposición la gestión de proyectos o apoyo en
+            la gestión para el manejo de proyectos según se requiera;
+            desarrollamos ambas metodologías por medio de una estructuración
+            estratégica, la cual contempla el uso de herramientas, políticas,
+            procedimientos y capacitaciones confeccionadas a la medida de cada
+            organización. Asimismo, complementamos este servicio con procesos de
+            innovación y desarrollo, con el fin de evaluar la factibilidad de
+            los proyectos para que estos sean exitosos en las empresas y en el
+            mercado.
+          </p>
+          <p class="">
+            También Manejamos o estructuramos Gestión de proyectos por medio de
+            las siguientes metodologías y aplicaciones:
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-1-2">
+              <div class="">
+                <ul class="custom-list-vadi">
+                  <li>
+                    <div class="list-div">
+                      <img src="/img/vadi/check-icon-800px-x-633.png" alt="" />
+                      PMI(Project Management Institute)
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-div">
+                      <img src="/img/vadi/check-icon-800px-x-633.png" alt="" />
+                      Scrum Master
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-div">
+                      <img src="/img/vadi/check-icon-800px-x-633.png" alt="" />
+                      VEMS (Vallejo Enterprise Management System)
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-1-2">
+              <div class="sub-container-varstate">
+                <ul class="custom-list-vadi">
+                  <li>
+                    <div class="list-div">
+                      <img src="/img/vadi/check-icon-800px-x-633.png" alt="" />
+                      Jira
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-div">
+                      <img src="/img/vadi/check-icon-800px-x-633.png" alt="" />
+                      Canvas
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="">
+      <div class="container">
+        <div class="row">
+          <div class="container"><h1>Costarica</h1></div>
+        </div>
+        <div class="row">
+          <div class="col-1-3">
+            <div>
+              <img
+                class="icon"
+                src="img/Inicio/Direccion-Icon-800px-x-800px.png"
+                alt=""
+              />
+              <p>Heredia, San Isidro</p>
+            </div>
+          </div>
+          <div class="col-1-3">
+            <div>
+              <img
+                class="icon"
+                src="img/Inicio/phone-Icon-800px-x-800px.png"
+                alt=""
+              />
+
+              <p>(506) 6135-3468</p>
+            </div>
+          </div>
+          <div class="col-1-3">
+            <div>
+              <img
+                class="icon"
+                src="img/Inicio/correo-Icon-800px-x-800px.png"
+                alt=""
+              />
+
+              <p>info@vallejobc.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1-3"><p>©Copyright 2021</p></div>
+          <div class="col-1-3"><p>Todos los Derechos Reservados</p></div>
+          <div class="col-1-3"><p>Política de Privacidad</p></div>
+        </div>
+        <div class="row">
+          <div class="container">
+            <div class="container">
+              <div class="row">
+                <div class="col-1-4">
+                  <a href="https://www.linkedin.com/company/grupovallejo/"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/LinkedIN-icon-800px-x-800px.png"
+                      alt="Linkdn"
+                  /></a>
+                </div>
+                <div class="col-1-4">
+                  <a href="https://www.facebook.com/vallejobc"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/Facebook-icon-800px-x-800px.png"
+                      alt="Facebook"
+                  /></a>
+                </div>
+
+                <div class="col-1-4">
+                  <a href="https://www.instagram.com/vallejobc/"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/instagram-icon-800px-x-800px.png"
+                      alt="Instagram"
+                  /></a>
+                </div>
+                <div class="col-1-4">
+                  <a href="https://wa.link/i1uqqu"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/whatsapp-icon-800px-x-800px.png"
+                      alt="Whatsapp"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="https://wa.link/i1uqqu"
+      ><img
+        class="icon-float"
+        src="img/Inicio/mensajeria-whatsapp-800px-x-322px.png"
+        alt="Whatsapp"
+    /></a>
+
+    <script src="js/nav.js"></script>
+    <script src="js/mobile-nav.js"></script>
+  </body>
+</html>

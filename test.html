@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grupo Vallejo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="img/Inicio/isotipo-40x40.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/Grid.css" /> -->
+  </head>
+  <body>
+    <section class="mob-nav-bar">
+      <span class="ct" onclick="openNav()"
+        ><div class="container">
+          <img
+            class="mobile-menu-icon"
+            src="/img/barras-de-servicio.png"
+            alt=""
+          /></div
+      ></span>
+      <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <!-- Overlay content -->
+        <div class="container">
+          <div class="navbar">
+            <a href="index.html"> <b>Inicio</b></a>
+
+            <div class="subnav">
+              <button id="cambiar" class="subnavbtn">
+                <b>Servicios</b> <i class="fa fa-caret-down"></i>
+              </button>
+
+              <div id="submenu-servicios" class="subnav-content">
+                <div class="subnav dark-grey">
+                  <button id="cambiar2" class="subnavbtn dark-grey">
+                    VBC (Consultoría) <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div id="submenu-servicios2" class="subnav-content">
+                    <a class="light-grey" href="#bring">Empresarial</a>
+                    <a class="light-grey" href="#deliver">Corporativa</a>
+                  </div>
+                </div>
+                <a class="dark-grey" href="#team"
+                  >Varstate (Asesoría en inversión Inmobiliaria)</a
+                >
+                <a class="dark-grey" href="#careers">Vauto (Automatización)</a>
+                <a class="dark-grey" href="#careers"
+                  >Vadi (Distribución y Logística)</a
+                >
+                <a class="dark-grey" href="#careers"
+                  >V-EMI (Estrategia Comercial)</a
+                >
+              </div>
+            </div>
+
+            <a href="quienesSomos.html"> <b>¿Quiénes somos?</b></a>
+            <a href="index.html"> <b>Blog</b></a>
+            <a href="index.html"> <b>Contáctenos</b> </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/js/nav.js" defer></script>
+    <script src="/js/mobile-nav.js" defer></script>
+  </body>
+</html>

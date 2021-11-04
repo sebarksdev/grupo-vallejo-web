@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grupo Vallejo</title>
+    <link
+      rel="shortcut icon"
+      href="img/Inicio/isotipo-40x40.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/Grid.css" /> -->
+    <link rel="" type="text/css" href="/css/fonts/stylesheet.css" />
+    <link rel="" type="text/css" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <section class="gray">
+        <div class="container">
+          <img
+            class="logo"
+            src="/img/Inicio/logotipo-inicio.png"
+            alt="Grupo Vallejo"
+          />
+        </div>
+      </section>
+
+      <nav id="menu">
+        <label for="tm" id="toggle-menu"
+          >Menu <span class="drop-icon"></span
+        ></label>
+        <input type="checkbox" id="tm" />
+        <ul class="main-menu clearfix">
+          <li><a class="br" href="index.html">Inicio</a></li>
+          <li>
+            <a class="br" href="#"
+              >Servicios
+              <span class="drop-icon">▾</span>
+              <label title="Toggle Drop-down" class="drop-icon" for="sm1"
+                >▾</label
+              >
+            </a>
+            <input type="checkbox" id="sm1" />
+            <ul class="sub-menu">
+              <li>
+                <a class="br" href="#"
+                  >VBC (Consultoría)
+                  <span class="drop-icon">►</span>
+                  <label title="Toggle Drop-down" class="drop-icon" for="sm1"
+                    >►</label
+                  >
+                </a>
+                <input type="checkbox" id="sm1" />
+                <ul class="sub-menu">
+                  <li><a href="vbc.html">Empresarial</a></li>
+                  <li>
+                    <a href="vbc-corp.html">Corporativa</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="varstate.html"
+                  >Asesoría en inversión Inmobiliaria (Varstate)</a
+                >
+              </li>
+              <li>
+                <a href="vauto.html">Automatización (Vauto)</a>
+              </li>
+              <li>
+                <a href="vadi.html">Distribución y Logística (Vadi)</a>
+              </li>
+              <li>
+                <a href="v-emi.html">Estrategia Comercial (V-EMI)</a>
+              </li>
+            </ul>
+          </li>
+          <li><a class="br" href="quienesSomos.html">¿Quiénes somos?</a></li>
+          <li><a class="br" href="blog.html">Blog</a></li>
+          <li><a class="contact" href="#ir-a-formulario">Contáctenos</a></li>
+        </ul>
+      </nav>
+
+      <section class="mob-nav-bar">
+        <span class="ct" onclick="openNav()"
+          ><div class="container">
+            <img
+              class="mobile-menu-icon"
+              src="/img/barras-de-servicio.png"
+              alt=""
+            /></div
+        ></span>
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+
+          <!-- Overlay content -->
+          <div class="container">
+            <div class="navbar">
+              <a href="index.html"> <b>Inicio</b></a>
+
+              <div class="subnav">
+                <button id="cambiar" class="subnavbtn">
+                  <b>Servicios</b> <i class="fa fa-caret-down"></i>
+                </button>
+
+                <div id="submenu-servicios" class="subnav-content">
+                  <div class="subnav dark-grey">
+                    <button id="cambiar2" class="subnavbtn dark-grey">
+                      VBC (Consultoría) <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="submenu-servicios2" class="subnav-content">
+                      <a class="light-grey bp" href="vbc.html">Empresarial</a>
+                      <a class="light-grey bp" href="vbc-corp.html"
+                        >Corporativa</a
+                      >
+                    </div>
+                  </div>
+                  <a class="dark-grey" href="varstate.html"
+                    >Varstate (Asesoría en inversión Inmobiliaria)</a
+                  >
+                  <a class="dark-grey" href="vauto.html"
+                    >Vauto (Automatización)</a
+                  >
+                  <a class="dark-grey" href="vadi.html"
+                    >Vadi (Distribución y Logística)</a
+                  >
+                  <a class="dark-grey" href="v-emi.html"
+                    >V-EMI (Estrategia Comercial)</a
+                  >
+                </div>
+              </div>
+
+              <a href="quienesSomos.html"> <b>¿Quiénes somos?</b></a>
+              <a href="blog.html"> <b>Blog</b></a>
+              <a href="#ir-a-formulario"> <b>Contáctenos</b> </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <div class="container">
+      <img
+        class="logo-2"
+        src="/img/VBC/Vallejo-Business-Consulting-800px-x-600px.png"
+        alt=""
+      />
+    </div>
+
+    <section class="">
+      <div class="bgr"><h1>Sistema de Gestión</h1></div>
+      <div class="container">
+        <p>
+          Los sistemas de gestión maduros en grandes industrias favorecen un
+          correcto flujo de datos e información a lo largo del tiempo en la
+          empresa, <br />
+          por lo que un sistema de gestión integral ofrece una mejora continua
+          que enlaza todas las áreas dentro de una organización.
+          <br />
+          <br />
+          En VBC proporcionamos el mantenimiento al sistema de gestión actual y
+          ponemos a disposición de las corporaciones <br />
+          que actualmente poseen e implementan sistemas de gestión los
+          siguientes servicios:
+        </p>
+
+        <div class="row">
+          <div class="col-1-2">
+            <div class="">
+              <img class="" src="/img/VBC/Auditoria-08.svg" alt="" />
+            </div>
+            <div class="">
+              <p><b>Auditorías externas de Gestión</b></p>
+            </div>
+          </div>
+          <div class="col-1-2">
+            <div class="">
+              <img class="" src="/img/VBC/Control de Riesgo-09.svg" alt="" />
+            </div>
+            <div class="">
+              <p><b>Procesos de análisis de riesgos</b></p>
+            </div>
+          </div>
+        </div>
+        <p class="">
+          Las auditorías y análisis de riesgos permiten controlar, planificar,
+          organizar y dirigir cada uno de los pasos <br />
+          que forman parte de la marcha de una empresa multinacional, los cuales
+          permiten a las empresas prepararse <br />
+          para optar por certificaciones tales como las siguientes:
+        </p>
+        <div class="row">
+          <div class="col-1-4">
+            <div class="">
+              <img class="img-corp" src="/img/VBC/medical.png" alt="" />
+            </div>
+            <div class="">
+              <p>
+                <b>ISO 13485:2016</b>
+              </p>
+              <p>Dispositivos e Industria médica</p>
+            </div>
+          </div>
+          <div class="col-1-4">
+            <div class="">
+              <img
+                class="img-corp-2"
+                src="/img/VBC/servicioalcliente.png"
+                alt=""
+              />
+            </div>
+            <div class="">
+              <p>
+                <b>ISO 9000-9001:2015</b>
+              </p>
+              <p>Servicio al cliente y Calidad</p>
+            </div>
+          </div>
+          <div class="col-1-4">
+            <div class="">
+              <img
+                class="img-corp"
+                src="/img/VBC/calidadenfocadaambiente.png"
+                alt=""
+              />
+            </div>
+            <div class="">
+              <p><b>ISO/IEC 17005</b> <br /></p>
+              <p>Calidad enfocada en Ambiente</p>
+            </div>
+          </div>
+          <div class="col-1-4">
+            <div class="">
+              <img
+                class="img-corp"
+                src="/img/VBC/desarrollosoftwareit.png"
+                alt=""
+              />
+            </div>
+            <div class="">
+              <p>
+                <b>ISO 27000,37001</b>
+              </p>
+              <p>Desarrollo de Software e IT</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1-3">   <div class="">
+            <img class="img-corp" src="/img/VBC/medioambiente.png" alt="" />
+          </div>
+          <div class="">
+            <p>
+              <b> ISO 14000</b>
+             
+            </p>
+            <p> Medio ambiente</p>
+          </div>
+        </div>
+          <div class="col-1-3">     <div class="">
+            <img
+              class="img-corp"
+              src="/img/VBC/responsabilidadsocial.png"
+              alt=""
+            />
+          </div>
+          <div class="">
+            <p>
+              <b>ISO 26000</b> 
+              
+            </p>
+            <p>Responsabilidad Social Empresarial</p>
+          </div></div>
+          <div class="col-1-3"> <div class="">
+            <img
+              class="img-corp-2"
+              src="/img/VBC/saludocupacional.png"
+              alt=""
+            />
+          </div>
+          <div class="">
+            <p>
+              <b>ISO 27001, ISO 22000, OSHAS 18001</b> 
+             
+            </p>
+            <p> Salud Ocupacional</p>
+          </div></div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="">
+      <div class="">
+        <div class="bgr"><h1>BPO</h1></div>
+      </div>
+      <div class="container">
+        
+        <div class="">
+          <p>
+            La subcontratación de procesos empresariales (Business Process
+            Outsourcing) reside <br />
+            en la tercerización de procesos y roles de trabajo bajo la modalidad
+            de Outsourcing o <br />
+            subcontratación, brindando la oportunidad de destinar recursos y
+            esfuerzos a las <br />
+            áreas esenciales de la compañía.
+          </p>
+        </div>
+        <div class="">
+          <p>
+            En VBC ponemos a disposición de las empresas; profesionales en las
+            áreas de: <br />
+            Ingeniería, Calidad, Salud ocupacional, Finanzas, Administración,
+            Mercadeo, <br />
+            Contabilidad, Project Management, entre otras; con amplia
+            experiencia por medio de <br />
+            los siguientes roles:
+          </p>
+        </div>
+        <div class="container"> <div class="row">
+         
+          <div class="col-1-2 ">
+            <ul class="custom-list-vadi">
+              <li> <div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Técnicos</div></li>
+              <li> <div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Auxiliares</div></li>
+              <li> <div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Analistas</div></li>
+            </ul>
+          </div>
+          <div class="col-1-2 ">
+            <ul class="custom-list-vadi">
+              <li> <div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Consultores</div></li>
+              <li> <div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Ingenieros</div></li>
+              <li> <div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Gerentes</div></li>
+            </ul>
+          </div>
+         
+        </div></div>
+       
+      </div>
+    </section>
+
+    <div class="bgr"><h1>Programas corporativos:</h1></div>
+
+    <section class="">
+      <div class="container">
+        <div class="sub-container-sistema">
+          <h1 class="">Background Check:</h1>
+        </div>
+        <div class="">
+          <p>
+            Este programa consiste en el estudio que se realiza para
+            complementar los procesos de <br />
+            selección y contratación de personal por medio de:
+          </p>
+        </div>
+        <div class="">
+          <ul class="custom-list-vadi">
+            <li>Apoyo en la gestión de procesos de reclutamiento.</li>
+            <li>
+              Herramientas y principios para la verificación de antecedentes
+              personales y laborales.
+            </li>
+            <li>
+              Búsquedas para identificar conflictos de interés, evidencia
+              directa y circunstancial en apoyo a las investigaciones.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container">
+        <div class="">
+          <h1 class="">PID – Program</h1>
+        </div>
+        <div class="">
+          <p>
+            Con el fin de aportar mayor eficiencia laboral a las organizaciones,
+            se creó el Personal <br />
+            Integral Development Program, el cual se basa en programas de
+            asesorías en línea para <br />
+            los colaboradores de las empresas.
+          </p>
+        </div>
+        <div class="">
+          <p>
+            Estas son impartidas por tutores especializados en finanzas
+            personales, basados en <br />
+            metodologías y herramientas de trabajo diseñadas por Grupo Vallejo.
+          </p>
+        </div>
+        <div class="">
+          <p>
+            Contamos con sesiones de consultoría adicionales bajo la misma
+            modalidad en las áreas de:
+          </p>
+        </div>
+        <div class="container"> <div class="row">
+          
+          <div class="col-1-2 ">
+            <ul class="custom-list-vadi">
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Emprendedurismo</div></li>
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Contaduría</div></li>
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Psicología</div></li>
+            </ul>
+          </div>
+          <div class="col-1-2 ">
+            <ul class="custom-list-vadi">
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Legal</div></li>
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Nutrición</div></li>
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Medicina General</div></li>
+            </ul>
+          </div>
+          
+        </div></div>
+       
+      </div>
+    </section>
+
+    <div class="container ">
+      <img class="corp-img" src="/img/VBC/ilustracion-2.png" alt="" />
+    </div>
+
+    <section class="">
+      <div class="container">
+        <div class="">
+          <h1 class="">Estudios de Mercado:</h1>
+        </div>
+        <div class="">
+          <p>
+            Corresponden a investigaciones que atienden a la necesidad de
+            identificar la precepción <br />
+            general de los consumidores potenciales sobre un producto o
+            servicio. Con el fin de <br />
+            obtener un panorama claro que garantice la toma de decisiones
+            acertadas entorno a una <br />
+            o varias actividades comerciales realizamos:
+          </p>
+        </div>
+       
+          <div class="row">
+            <div class="col-1-3"></div>
+            <div class="col-1-3"> <ul class="custom-list-vadi">
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Investigaciones cualitativas</div></li>
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Investigaciones cuantitativas</div></li>
+            </ul></div>
+            <div class="col-1-3"></div>
+           
+        </div>
+     
+       
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container">
+        <div class="">
+          <h1 class="">Control de inventarios:</h1>
+        </div>
+        <div class="">
+          <p>
+            Un correcto control de inventarios permite saber la usabilidad de
+            los recursos de la <br />
+            empresa, analizar la depreciación de activos, rotación de los
+            productos y a su vez la <br />
+            correcta presentación de la declaración de renta y sus cargos
+            asociados. <br />
+            <br />
+            Desarrollamos herramientas que apoyan y facilitan el proceso de
+            levantamiento <br />
+            del inventario y su control, por medio de:
+          </p>
+        </div>
+        <div class="row"> <div class="col-1-3"></div>
+        <div class="col-1-3">
+          <ul class="custom-list-vadi">
+            <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Asesoría en toda la cadena de suministro </div></li>
+            <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Implementación levantamiento y control </div></li>
+            <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Automatización digital de procesos (DPA) </div></li>
+          </ul>
+        </div>
+        <div class="col-1-3"></div></div>
+       
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container">
+        <div class="">
+          <h1 class="">Expats</h1>
+        </div>
+        <div class="">
+          <p>
+            Este programa busca asesorar a la mano de obra que será reubicada en
+            Costa Rica <br />
+            debido a las necesidades operativas de la empresa desde el inicio
+            del proceso a través de:
+          </p>
+        </div>
+        <div class="row">
+         
+          <div class="col-1-2 ">
+            <ul class="custom-list-vadi">
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Trámites migratorios</div> </li>
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Transporte aéreo e interno </div></li>
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Residencia / Bienes raíces </div></li>
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Soporte 24/7 </div></li>
+            </ul>
+          </div>
+          <div class="col-1-2 ">
+            <ul class="custom-list-vadi">
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Mudanza </div></li>
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Educación  </div></li>
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Tramites contables y financieros </div></li>
+              <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Cultura del país  </div></li>
+            </ul>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="">
+        <div class="container">
+          <img class="corp-img" src="/img/VBC/ilustracion-1.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="">
+      <div class="container">
+        <div class="row">
+          <div class="container"><h1>Costarica</h1></div>
+        </div>
+        <div class="row">
+          <div class="col-1-3">
+            <div>
+              <img
+                class="icon"
+                src="img/Inicio/Direccion-Icon-800px-x-800px.png"
+                alt=""
+              />
+              <p>Heredia, San Isidro</p>
+            </div>
+          </div>
+          <div class="col-1-3">
+            <div>
+              <img
+                class="icon"
+                src="img/Inicio/phone-Icon-800px-x-800px.png"
+                alt=""
+              />
+
+              <p>(506) 6135-3468</p>
+            </div>
+          </div>
+          <div class="col-1-3">
+            <div>
+              <img
+                class="icon"
+                src="img/Inicio/correo-Icon-800px-x-800px.png"
+                alt=""
+              />
+
+              <p>info@vallejobc.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1-3"><p>©Copyright 2021</p></div>
+          <div class="col-1-3"><p>Todos los Derechos Reservados</p></div>
+          <div class="col-1-3"><p>Política de Privacidad</p></div>
+        </div>
+        <div class="row">
+          <div class="container">
+            <div class="container">
+              <div class="row">
+                <div class="col-1-4">
+                  <a href="https://www.linkedin.com/company/grupovallejo/"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/LinkedIN-icon-800px-x-800px.png"
+                      alt="Linkdn"
+                  /></a>
+                </div>
+                <div class="col-1-4">
+                  <a href="https://www.facebook.com/vallejobc"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/Facebook-icon-800px-x-800px.png"
+                      alt="Facebook"
+                  /></a>
+                </div>
+
+                <div class="col-1-4">
+                  <a href="https://www.instagram.com/vallejobc/"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/instagram-icon-800px-x-800px.png"
+                      alt="Instagram"
+                  /></a>
+                </div>
+                <div class="col-1-4">
+                  <a href="https://wa.link/i1uqqu"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/whatsapp-icon-800px-x-800px.png"
+                      alt="Whatsapp"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="https://wa.link/i1uqqu"
+      ><img
+        class="icon-float"
+        src="img/Inicio/mensajeria-whatsapp-800px-x-322px.png"
+        alt="Whatsapp"
+    /></a>
+
+    <script src="js/nav.js"></script>
+    <script src="js/mobile-nav.js"></script>
+  </body>
+</html>

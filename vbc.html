@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grupo Vallejo</title>
+    <link
+      rel="shortcut icon"
+      href="img/Inicio/isotipo-40x40.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/Grid.css" /> -->
+    <link rel="" type="text/css" href="/css/fonts/stylesheet.css" />
+    <link rel="" type="text/css" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <section class="gray">
+        <div class="container">
+          <img
+            class="logo"
+            src="/img/Inicio/logotipo-inicio.png"
+            alt="Grupo Vallejo"
+          />
+        </div>
+      </section>
+
+      <nav id="menu">
+        <label for="tm" id="toggle-menu"
+          >Menu <span class="drop-icon"></span
+        ></label>
+        <input type="checkbox" id="tm" />
+        <ul class="main-menu clearfix">
+          <li><a class="br" href="index.html">Inicio</a></li>
+          <li>
+            <a class="br" href="#"
+              >Servicios
+              <span class="drop-icon">▾</span>
+              <label title="Toggle Drop-down" class="drop-icon" for="sm1"
+                >▾</label
+              >
+            </a>
+            <input type="checkbox" id="sm1" />
+            <ul class="sub-menu">
+              <li>
+                <a class="br" href="#"
+                  >VBC (Consultoría)
+                  <span class="drop-icon">►</span>
+                  <label title="Toggle Drop-down" class="drop-icon" for="sm1"
+                    >►</label
+                  >
+                </a>
+                <input type="checkbox" id="sm1" />
+                <ul class="sub-menu">
+                  <li><a href="vbc.html">Empresarial</a></li>
+                  <li>
+                    <a href="vbc-corp.html">Corporativa</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="varstate.html"
+                  >Asesoría en inversión Inmobiliaria (Varstate)</a
+                >
+              </li>
+              <li>
+                <a href="vauto.html">Automatización (Vauto)</a>
+              </li>
+              <li>
+                <a href="vadi.html">Distribución y Logística (Vadi)</a>
+              </li>
+              <li>
+                <a href="v-emi.html">Estrategia Comercial (V-EMI)</a>
+              </li>
+            </ul>
+          </li>
+          <li><a class="br" href="quienesSomos.html">¿Quiénes somos?</a></li>
+          <li><a class="br" href="blog.html">Blog</a></li>
+          <li><a class="contact" href="#ir-a-formulario">Contáctenos</a></li>
+        </ul>
+      </nav>
+
+      <section class="mob-nav-bar">
+        <span class="ct" onclick="openNav()"
+          ><div class="container">
+            <img
+              class="mobile-menu-icon"
+              src="/img/barras-de-servicio.png"
+              alt=""
+            /></div
+        ></span>
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+
+          <!-- Overlay content -->
+          <div class="container">
+            <div class="navbar">
+              <a href="index.html"> <b>Inicio</b></a>
+
+              <div class="subnav">
+                <button id="cambiar" class="subnavbtn">
+                  <b>Servicios</b> <i class="fa fa-caret-down"></i>
+                </button>
+
+                <div id="submenu-servicios" class="subnav-content">
+                  <div class="subnav dark-grey">
+                    <button id="cambiar2" class="subnavbtn dark-grey">
+                      VBC (Consultoría) <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="submenu-servicios2" class="subnav-content">
+                      <a class="light-grey bp" href="vbc.html">Empresarial</a>
+                      <a class="light-grey bp" href="vbc-corp.html"
+                        >Corporativa</a
+                      >
+                    </div>
+                  </div>
+                  <a class="dark-grey" href="varstate.html"
+                    >Varstate (Asesoría en inversión Inmobiliaria)</a
+                  >
+                  <a class="dark-grey" href="vauto.html"
+                    >Vauto (Automatización)</a
+                  >
+                  <a class="dark-grey" href="vadi.html"
+                    >Vadi (Distribución y Logística)</a
+                  >
+                  <a class="dark-grey" href="v-emi.html"
+                    >V-EMI (Estrategia Comercial)</a
+                  >
+                </div>
+              </div>
+
+              <a href="quienesSomos.html"> <b>¿Quiénes somos?</b></a>
+              <a href="blog.html"> <b>Blog</b></a>
+              <a href="#ir-a-formulario"> <b>Contáctenos</b> </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <div class="container">
+      <img
+        class="logo-2"
+        src="/img/VBC/Vallejo-Business-Consulting-800px-x-600px.png"
+        alt=""
+      />
+    </div>
+
+    <section class="section-Consultorias">
+      <div class="bgr">
+        <h1>Consultorías y Asesorías</h1>
+      </div>
+      <div class="container">
+        <div class="">
+          <p>
+            Vallejo Business Consulting es la division de Grupo Vallejo que pone
+            a disposicion <br />
+            de las empresas asesorías y Consultorías en las siguientes áreas:
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container">
+        <div class="">
+          <h1 class="">Sistema de Gestión</h1>
+        </div>
+        <div class="">
+          <p>
+            En las pequeñas y medianas empresas (PYMES), se inicia por el
+            ordenamiento y la estructuración efectiva de todas las áreas de la
+            organización, <br />las cuales permiten obtener beneficios como los
+            siguientes:
+          </p>
+        </div>
+        <div class="">
+          <ul class="custom-list-vadi">
+            <li>
+              Generar protocolos a seguir en cualquier actividad productiva, que
+              pretende una cultura de mejora continua y aprendizaje
+              organizacional.
+            </li>
+            <li>
+              Facilitar a las empresas definir, organizar e implementar los
+              lineamientos generales y de operación.
+            </li>
+            <li>
+              Permite la optimización de recursos y un mejor desempeño de
+              manera integral.
+            </li>
+            <li>
+              Garantizar que se cumplan los procesos y estándares estipulados
+              por normas internacionales.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="vbc-video">
+      <video width="100%" height="" autoplay muted loop>
+        <source src="/img/VBC/Video 1.mp4" type="video/mp4" />
+        not supported by your browser
+      </video>
+    </div>
+
+    <section class="gestiones">
+      <div class="container">
+        <h1>
+          Nuestros Sistemas de Gestión están basados en las siguientes áreas:
+        </h1>
+        <div class="boxesContainer">
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/Gestion-Financiera-icon-800-x-600.png"
+                  alt=""
+                />
+                <h5 class="">
+                  <b
+                    >Gestión<br />
+                    Financiera</b
+                  >
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Manejo, análisis y control financiero de la empresa,
+                  considerando gastos fijos, variables, rentabilidad y utilidad.
+                  Además de la gestión contable.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/Gobernanza-coorporativa-icon-800-x-600.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gobernanza<br />
+                  Corporativa
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Políticas de manejo de decisiones importantes en la sociedad u
+                  organización para proteger a todos los socios o propietarios
+                  durante la existencia de la compañía.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/Gestion-de-proyectos-icon-800-x-600.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión de<br />
+                  Proyectos
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Correcto manejo estructural de proyectos para evitar el
+                  malgastar recursos, incrementar riqueza y generar historial de
+                  buenas decisiones.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/gestion-de-operativa-800px-x-600px.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión<br />
+                  Operativa
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Correcto control y estándar de las operaciones de la empresa,
+                  mejora continua de procesos y un correcto control de la cadena
+                  de suministro.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="boxesContainer">
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/gestion-de-talento-y-rrhh-icon-800px-x-600px.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión de Talento y<br />
+                  Recursos Humanos
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Correcto manejo de personal, procesos de contratación,
+                  reglamentos y demás requisitos establecidos legalmente por el
+                  país.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/gestion-administrativa-icon-800px-x-600px.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión<br />
+                  Administrativa
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Estrategia del negocio, cumplimiento de objetivos, controles
+                  internos y optimización de recursos y trabajo entre áreas de
+                  la empresa.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/Gestion-Ambiental-icon-800-x-600.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión de<br />
+                  Ambiental
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Responsabilidad y gestión del correcto manejo de desperdicios,
+                  así como buenas prácticas en la disminución de emisiones.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/Gestion-Comercial-icon-800-x-600.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión<br />
+                  Comercial
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Alineamiento de los esfuerzos comerciales y de mercadeo con
+                  las estrategias de crecimiento empresarial y su correcto uso
+                  de recursos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="boxesContainer">
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/Gestion-Innovacion-y-desarrollo-icon-800-x-600.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión de Innovación<br />
+                  y Desarrollo
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Diversificar para aumentar ventas y rentabilidad siempre en
+                  busca de la mejora continua de nuestros procesos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/gestion-de-calidad-icon-800px-x-600px.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión<br />
+                  de Calidad
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Control y validación del correcto funcionamiento y entregable
+                  de todos los procesos de la empresa para los clientes internos
+                  y externos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/Gestion-de-riesgos-icon-800px-x-600px.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión <br />
+                  de Riesgos
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Todo proceso y empresa tiene riesgos, estos deben ser mapeados
+                  contantemente para mejorarlos, y evitar perdida de recursos
+                  financieros, de activos e incluso humanos.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/Gestion-de-auditoria-1200px-x-1200px.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión<br />
+                  de Auditorías
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Todos lo procesos de una empresa se deben auditar para mejora
+                  constantemente, esto lo logramos con esta gestión.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="boxesContainer">
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/Gestion-tecnologia-icon-800px-x-600px.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión de Tecnologías<br />
+                  de la información
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Control y manejo correcto de todos nuestros activos
+                  tecnológicos, datos y desarrollos empresariales de índole
+                  confidencial, además de una continuidad diaria del negocio.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/gestion-de-salud-ocuapcional-800px-x-600px.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión de<br />
+                  Salud Ocupacional
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Correcta ergonomía y seguridad en los procesos productivos de
+                  la empresa para los colaboradores.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/gestion-logistica-icon-800px-x-600px.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión <br />
+                  de Logística
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Manejo correcto de todos los procesos logísticos de
+                  importación, exportación e incluso de almacenaje propio.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="cardBox">
+            <div class="card">
+              <div class="front">
+                <img
+                  class="card-img-vbc"
+                  src="/img/VBC/Gestion-social-icon-800px-x-600px.png"
+                  alt=""
+                />
+                <h5 class="">
+                  Gestión<br />
+                  Social
+                </h5>
+              </div>
+              <div class="back">
+                <p>
+                  Responsabilidad y acciones de bien hacia organizaciones o
+                  comunidades en necesidad social, incluso internamente en la
+                  empresa para con nuestros colaboradores.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-bpo">
+      <div class="container">
+        <div class="">
+          <h1 class="">BPO</h1>
+        </div>
+        <div class="">
+          <p>
+            La subcontratación de procesos empresariales (Business Process
+            Outsourcing) reside en la tercerización de procesos y roles de
+            trabajo bajo la modalidad de Outsourcing o subcontratación,
+            brindando la oportunidad de destinar recursos y esfuerzos a las
+            áreas esenciales de la compañía.
+          </p>
+        </div>
+        <div class="">
+          <p>
+            En VBC ponemos a disposición de las empresas; profesionales en las
+            áreas de: <br />
+            Ingeniería, Calidad, Salud ocupacional, Finanzas, Administración,
+            Mercadeo, Contabilidad, entre otras; con amplia experiencia por
+            medio de los siguientes roles:
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-1-2">
+              <ul class="">
+                <li>
+                  <div class="list-div">
+                    <img
+                      src="/img/vadi/check-icon-800px-x-633.png"
+                      alt=""
+                    />Técnicos
+                  </div>
+                </li>
+                <li>
+                  <div class="list-div">
+                    <img
+                      src="/img/vadi/check-icon-800px-x-633.png"
+                      alt=""
+                    />Auxiliares
+                  </div>
+                </li>
+                <li>
+                  <div class="list-div">
+                    <img
+                      src="/img/vadi/check-icon-800px-x-633.png"
+                      alt=""
+                    />Analistas
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-1-2">
+              <ul class="custom-list-vadi">
+                <li>
+                  <div class="list-div">
+                    <img
+                      src="/img/vadi/check-icon-800px-x-633.png"
+                      alt=""
+                    />Consultores
+                  </div>
+                </li>
+                <li>
+                  <div class="list-div">
+                    <img
+                      src="/img/vadi/check-icon-800px-x-633.png"
+                      alt=""
+                    />Ingenieros
+                  </div>
+                </li>
+                <li>
+                  <div class="list-div">
+                    <img
+                      src="/img/vadi/check-icon-800px-x-633.png"
+                      alt=""
+                    />Gerentes
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionDS2">
+      <div class="container">
+        <div>
+          <h1 class="">Estrategia de negocios</h1>
+
+          <p class="">
+            Desarrollamos por medio de asesorías por horas con nuestros clientes
+            planes de crecimiento y diversificación empresarial que dan pie a
+            modelos de negocio robustos que puedan ser aprobados por la junta
+            directiva de la empresa y ser llevados a cabo por parte de todo el
+            equipo de la organización, así como basar su sistema de gestión con
+            base a esto.
+          </p>
+          <p class="">
+            Como parte de los entregables de esta asesoria por parte de alguno
+            de nuestros consultores de negocios Sr tenemos los siguiente:
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-1-2">
+              <div class="sub-container-varstate">
+                <ul class="custom-list-vadi">
+                  <li>
+                    <div class="list-div">
+                      <img
+                        src="/img/vadi/check-icon-800px-x-633.png"
+                        alt=""
+                      />Objetivo principal
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-div">
+                      <img
+                        src="/img/vadi/check-icon-800px-x-633.png"
+                        alt=""
+                      />Objetivos específicos
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-div">
+                      <img
+                        src="/img/vadi/check-icon-800px-x-633.png"
+                        alt=""
+                      />Desarrollo de un nuevo organigrama o futuro con <br />
+                      base a dicho modelo de negocio
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-div">
+                      <img
+                        src="/img/vadi/check-icon-800px-x-633.png"
+                        alt=""
+                      />Sugerencias comerciales, referencias, conexiones y
+                      <br />
+                      demás con otros clientes de la empresa para generar <br />
+                      una ayuda de crecimiento mutua.
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-1-2">
+              <div class="sub-container-varstate">
+                <ul class="custom-list-vadi">
+                  <li>
+                    <div class="list-div">
+                      <img
+                        src="/img/vadi/check-icon-800px-x-633.png"
+                        alt=""
+                      />Objetivos a corto, mediano y largo plazo
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-div">
+                      <img
+                        src="/img/vadi/check-icon-800px-x-633.png"
+                        alt=""
+                      />Objetivos estratégicos específicos
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-div">
+                      <img
+                        src="/img/vadi/check-icon-800px-x-633.png"
+                        alt=""
+                      />Plan maestro de crecimiento de 7 o 10 años
+                    </div>
+                  </li>
+                  <li>
+                    <div class="list-div">
+                      <img
+                        src="/img/vadi/check-icon-800px-x-633.png"
+                        alt=""
+                      />Modelo de negocio de diversificación de crecimiento del
+                      negocio con base a benchmarking de industrias similares y
+                      fuera del nicho, con la finalidad de mitigar riesgos y
+                      aumentar estabilidad con más ventas
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionDS">
+      <div class="container">
+        <div>
+          <h1>Project Management</h1>
+
+          <p>
+            En VBC ponemos a su disposición la gestión de proyectos o apoyo en
+            la gestión para el manejo de proyectos según se requiera;
+            desarrollamos ambas metodologías por medio de una estructuración
+            estratégica, la cual contempla el uso de herramientas, políticas,
+            procedimientos y capacitaciones confeccionadas a la medida de cada
+            organización. Asimismo, complementamos este servicio con procesos de
+            innovación y desarrollo, con el fin de evaluar la factibilidad de
+            los proyectos para que estos sean exitosos en las empresas y en el
+            mercado.
+          </p>
+          <p>
+            También Manejamos o estructuramos Gestión de proyectos por medio de
+            las siguientes metodologías y aplicaciones:
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-1-2">
+              <ul class="custom-list-vadi">
+                <li>
+                  <div class="list-div">
+                    <img
+                      src="/img/vadi/check-icon-800px-x-633.png"
+                      alt=""
+                    />Canvas
+                  </div>
+                </li>
+                <li>
+                  <div class="list-div">
+                    <img
+                      src="/img/vadi/check-icon-800px-x-633.png"
+                      alt=""
+                    />Scrum Master
+                  </div>
+                </li>
+                <li>
+                  <div class="list-div">
+                    <img
+                      src="/img/vadi/check-icon-800px-x-633.png"
+                      alt=""
+                    />VEMS (Vallejo Enterprise Management System)
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-1-2">
+              <ul class="custom-list-vadi">
+                <li>
+                  <div class="list-div">
+                    <img
+                      src="/img/vadi/check-icon-800px-x-633.png"
+                      alt=""
+                    />Jira
+                  </div>
+                </li>
+                <li>
+                  <div class="list-div">
+                    <img
+                      src="/img/vadi/check-icon-800px-x-633.png"
+                      alt=""
+                    />PMI(Project Management Institute)
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="">
+      <div class="container">
+        <div class="row">
+          <div class="container"><h1>Costarica</h1></div>
+        </div>
+        <div class="row">
+          <div class="col-1-3">
+            <div>
+              <img
+                class="icon"
+                src="img/Inicio/Direccion-Icon-800px-x-800px.png"
+                alt=""
+              />
+              <p>Heredia, San Isidro</p>
+            </div>
+          </div>
+          <div class="col-1-3">
+            <div>
+              <img
+                class="icon"
+                src="img/Inicio/phone-Icon-800px-x-800px.png"
+                alt=""
+              />
+
+              <p>(506) 6135-3468</p>
+            </div>
+          </div>
+          <div class="col-1-3">
+            <div>
+              <img
+                class="icon"
+                src="img/Inicio/correo-Icon-800px-x-800px.png"
+                alt=""
+              />
+
+              <p>info@vallejobc.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1-3"><p>©Copyright 2021</p></div>
+          <div class="col-1-3"><p>Todos los Derechos Reservados</p></div>
+          <div class="col-1-3"><p>Política de Privacidad</p></div>
+        </div>
+        <div class="row">
+          <div class="container">
+            <div class="container">
+              <div class="row">
+                <div class="col-1-4">
+                  <a href="https://www.linkedin.com/company/grupovallejo/"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/LinkedIN-icon-800px-x-800px.png"
+                      alt="Linkdn"
+                  /></a>
+                </div>
+                <div class="col-1-4">
+                  <a href="https://www.facebook.com/vallejobc"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/Facebook-icon-800px-x-800px.png"
+                      alt="Facebook"
+                  /></a>
+                </div>
+
+                <div class="col-1-4">
+                  <a href="https://www.instagram.com/vallejobc/"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/instagram-icon-800px-x-800px.png"
+                      alt="Instagram"
+                  /></a>
+                </div>
+                <div class="col-1-4">
+                  <a href="https://wa.link/i1uqqu"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/whatsapp-icon-800px-x-800px.png"
+                      alt="Whatsapp"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="https://wa.link/i1uqqu"
+      ><img
+        class="icon-float"
+        src="img/Inicio/mensajeria-whatsapp-800px-x-322px.png"
+        alt="Whatsapp"
+    /></a>
+
+    <script src="js/nav.js"></script>
+    <script src="js/mobile-nav.js"></script>
+  </body>
+</html>

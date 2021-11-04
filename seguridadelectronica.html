@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grupo Vallejo</title>
+    <link
+      rel="shortcut icon"
+      href="img/Inicio/isotipo-40x40.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/Grid.css" /> -->
+    <link rel="" type="text/css" href="/css/fonts/stylesheet.css" />
+    <link rel="" type="text/css" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <section class="gray">
+        <div class="container">
+          <img
+            class="logo"
+            src="/img/Inicio/logotipo-inicio.png"
+            alt="Grupo Vallejo"
+          />
+        </div>
+      </section>
+
+      <nav id="menu">
+        <label for="tm" id="toggle-menu"
+          >Menu <span class="drop-icon"></span
+        ></label>
+        <input type="checkbox" id="tm" />
+        <ul class="main-menu clearfix">
+          <li><a class="br" href="index.html">Inicio</a></li>
+          <li>
+            <a class="br" href="#"
+              >Servicios
+              <span class="drop-icon">▾</span>
+              <label title="Toggle Drop-down" class="drop-icon" for="sm1"
+                >▾</label
+              >
+            </a>
+            <input type="checkbox" id="sm1" />
+            <ul class="sub-menu">
+              <li>
+                <a class="br" href="#"
+                  >VBC (Consultoría)
+                  <span class="drop-icon">►</span>
+                  <label title="Toggle Drop-down" class="drop-icon" for="sm1"
+                    >►</label
+                  >
+                </a>
+                <input type="checkbox" id="sm1" />
+                <ul class="sub-menu">
+                  <li><a href="vbc.html">Empresarial</a></li>
+                  <li>
+                    <a href="vbc-corp.html">Corporativa</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="varstate.html"
+                  >Asesoría en inversión Inmobiliaria (Varstate)</a
+                >
+              </li>
+              <li>
+                <a href="vauto.html">Automatización (Vauto)</a>
+              </li>
+              <li>
+                <a href="vadi.html">Distribución y Logística (Vadi)</a>
+              </li>
+              <li>
+                <a href="v-emi.html">Estrategia Comercial (V-EMI)</a>
+              </li>
+            </ul>
+          </li>
+          <li><a class="br" href="quienesSomos.html">¿Quiénes somos?</a></li>
+          <li><a class="br" href="blog.html">Blog</a></li>
+          <li><a class="contact" href="#ir-a-formulario">Contáctenos</a></li>
+        </ul>
+      </nav>
+
+      <section class="mob-nav-bar">
+        <span class="ct" onclick="openNav()"
+          ><div class="container">
+            <img
+              class="mobile-menu-icon"
+              src="/img/barras-de-servicio.png"
+              alt=""
+            /></div
+        ></span>
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+
+          <!-- Overlay content -->
+          <div class="container">
+            <div class="navbar">
+              <a href="index.html"> <b>Inicio</b></a>
+
+              <div class="subnav">
+                <button id="cambiar" class="subnavbtn">
+                  <b>Servicios</b> <i class="fa fa-caret-down"></i>
+                </button>
+
+                <div id="submenu-servicios" class="subnav-content">
+                  <div class="subnav dark-grey">
+                    <button id="cambiar2" class="subnavbtn dark-grey">
+                      VBC (Consultoría) <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="submenu-servicios2" class="subnav-content">
+                      <a class="light-grey bp" href="vbc.html">Empresarial</a>
+                      <a class="light-grey bp" href="vbc-corp.html"
+                        >Corporativa</a
+                      >
+                    </div>
+                  </div>
+                  <a class="dark-grey" href="varstate.html"
+                    >Varstate (Asesoría en inversión Inmobiliaria)</a
+                  >
+                  <a class="dark-grey" href="vauto.html"
+                    >Vauto (Automatización)</a
+                  >
+                  <a class="dark-grey" href="vadi.html"
+                    >Vadi (Distribución y Logística)</a
+                  >
+                  <a class="dark-grey" href="v-emi.html"
+                    >V-EMI (Estrategia Comercial)</a
+                  >
+                </div>
+              </div>
+
+              <a href="quienesSomos.html"> <b>¿Quiénes somos?</b></a>
+              <a href="blog.html"> <b>Blog</b></a>
+              <a href="#ir-a-formulario"> <b>Contáctenos</b> </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="sectionDS">
+      <div>
+        <img
+          src="/img/Vauto/tabs/tecnologias-de-la-seguridad-Servicios-de-seguridad-electrónica-y-control-de-acceso-1920px-x-695.png"
+          alt=""
+          class="banner"
+        />
+      </div>
+    </section>
+
+    <section class="sectionDS">
+      <div class="container">
+        <p class="">
+          Vauto cuenta con equipo especializado en la integración de sistemas de
+          seguridad electrónica y controles de acceso con protocolos de
+          comunicación seguros.
+        </p>
+
+        <div>
+          <h1 class="">Instalación de sistemas de CCTV</h1>
+
+          <p class="">
+            Circuito cerrado de televisión (CCTV) o cámaras de seguridad, son
+            utilizadas para complementar la seguridad física que existen en las
+            diferentes instalaciones. Para lograr optimizar los recursos se debe
+            hacer un análisis previo de las zonas que se desean cubrir; este
+            levantamiento permite definir puntos estratégicos de colocación de
+            dispositivos en los cuales se vele por el cumplimiento de las normas
+            y buenas prácticas de instalación. Algunas características de los
+            sistemas de CCTV:
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-1-3">
+            <li>
+              <div class="list-div">
+                <img
+                  src="/img/vadi/check-icon-800px-x-633.png"
+                  alt=""
+                />Tecnología de punta
+              </div>
+            </li>
+            <li>
+              <div class="list-div">
+                <img
+                  src="/img/vadi/check-icon-800px-x-633.png"
+                  alt=""
+                />Garantía y respaldo de fabricante
+              </div>
+            </li>
+          </div>
+          <div class="col-1-3">
+            <div class="">
+              <ul class="custom-list-vadi">
+                <li>
+                  <div class="list-div">
+                    <img
+                      src="/img/vadi/check-icon-800px-x-633.png"
+                      alt=""
+                    />Ingenieros especializados
+                  </div>
+                </li>
+                <li>
+                  <div class="list-div">
+                    <img src="/img/vadi/check-icon-800px-x-633.png" alt="" />
+                    Monitoreo remoto
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-1-3">
+            <li>
+              <div class="list-div">
+                <img
+                  src="/img/vadi/check-icon-800px-x-633.png"
+                  alt=""
+                />Evaluación y diseño de proyectos desde cero
+              </div>
+            </li>
+            <li>
+              <div class="list-div">
+                <img src="/img/vadi/check-icon-800px-x-633.png" alt="" />
+                Sistemas e instalación ajustables al presupuesto
+              </div>
+            </li>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionDS2">
+      <div class="container">
+        <div>
+          <h1 class="">
+            Instalación de sistemas de alarma contra robo contra incendio
+          </h1>
+
+          <p class="">
+            Los sistemas de alarma contra intrusión e incendio de igual forma se
+            complementan con software y otros dispositivos de seguridad.
+            Sistemas contra robo:
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-1-">
+            <div class="">
+              <ul class="custom-list-vadi">
+                <h2 class="">Sistemas contra robo: <br /></h2>
+                <p class="">
+                  Son utilizados para proteger zonas de acceso restringido para
+                  garantizar la seguridad física del inmueble. Estos sistemas
+                  tienen la particularidad de que son muy interactivos y se
+                  puede acceder a ellos de forma remota. También se pueden
+                  brindar accesos a colaboradores sin que ellos manejen la clave
+                  de los sistemas, disminuyendo así una posible intrusión.
+                </p>
+                <h2 class="">Sistemas de alarmas contra incendio: <br /></h2>
+                <p class="">
+                  Las alarmas contra incendio se han vuelto un requerimiento
+                  para muchas industrias a la hora de tener operando una planta
+                  o empresa. Para el diseño de estos sistemas es necesario
+                  conocer la norma NFPA y hacer un recorrido de reconocimiento
+                  de la necesidad.
+                </p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionDS">
+      <div class="container">
+        <div>
+          <h1 class="">Instalación de controles de acceso</h1>
+
+          <p class="">
+            Los controles de acceso se han popularizado en las empresas por lo
+            dinámicos que son. Permiten controlar el acceso a los diferentes
+            espacios de la infraestructura de la organización; así como también
+            los tiempos de ingreso y salida de los colaboradores de la empresa.
+            Estos sistemas ofrecen:
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-1-4"><li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Programaciones de horario</div></li></div>
+
+          <div class="col-1-4">
+            <div class="">
+              <ul class="custom-list-vadi">
+                
+                <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Permisos de usuarios</div></li>
+               
+              </ul>
+            </div>
+          </div>
+          <div class="col-1-4">
+            <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Datos de usuarios de forma remota</div></li>
+          
+        </div>
+        <div class="col-1-4">  <li>
+          <div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Software de control, con el que se pueden hacer aperturas y
+            cierres de puertas y accesos de forma remota.</div>
+        </li></div>
+      </div>
+    </section>
+
+    <section class="sectionDS2">
+      <div class="container">
+        <div>
+          <h1 class="">Cuarto de monitoreo</h1>
+
+          <p class="">
+            El cuarto de monitoreo responde a los procedimientos anteriores, son
+            utilizados con el fin de controlar y monitorear los sistemas y del
+            mismo modo para brindar apoyo a los encargados con el fin de
+            asegurar el funcionamiento y desempeño correcto de los equipos.
+            Además de esto mediante un centro de monitoreo o Command center
+            desde nuestra perspectiva de negocio, debe ser ese centro de control
+            en donde converjan todas las tecnologías de la seguridad, permisos,
+            ciber seguridad, seguridad electrónica, controles de acceso,
+            políticas de seguridad tanto física como logística entre otros
+            servicios profesionales y con tecnología de punta. <br />Para los
+            cuartos oscuros o cuartos de monitoreo, es necesario:
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-1-3">
+            <div class="">
+              <ul class="custom-list-vadi">
+                <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Tomar especificaciones técnicas</div></li>
+               
+             
+               
+              </ul>
+            </div>
+          </div>
+          <div class="col-1-3"> <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Tomar especificaciones ergonómicas para su diseño</div></li></div>
+          <div class="col-1-3">   <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Definir alcance y cantidad de dispositivos vinculados.</div></li></div>
+        </div>
+        <p class="">
+          Los sistemas mencionados anteriormente son bastante utilizados
+          en bancos, edificios corporativos, casinos, condominios,
+          residencias en torre, entre otros.
+        </p>
+      </div>
+    </section>
+
+    <section class="sectionDS">
+      <div class="container">
+        <div>
+          <h1 class="">Conexión de sistemas</h1>
+
+          <p class="">
+            La comunicación de los sistemas con la central de monitoreo se puede
+            realizar de dos maneras:
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-1-4"></div>
+          <div class="col-1-4">
+            <div class="">
+              <ul class="custom-list-vadi">
+                <li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Comunicación por medio de protocolos de internet.</div></li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-1-4"><li><div class="list-div"><img src="/img/vadi/check-icon-800px-x-633.png" alt=""/>Comunicación inalámbrica por medio de radio enlaces.</div></li></div>
+          <div class="col-1-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionDS2">
+      <div class="container">
+        <div>
+          <h1 class="">Asesoría</h1>
+
+          <p class="">
+            Brindamos asesoría y acompañamiento en sus proyectos de integración
+            y seguridad electrónica asistiéndole en el proceso de
+            automatización, protección física, de datos, de software, entre
+            otras áreas con procesos críticos de su empresa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sectionDS">
+      <div class="container">
+        <div>
+          <h1 class="">Análisis de riesgo</h1>
+
+          <p class="">
+            Validamos la forma más segura de la comunicación de los sistemas y
+            realizamos un plan de riesgo para mitigar los posibles eventos que
+            puedan afectar el uso de estos, a nivel de infraestructura del
+            lugar, cuarto de monitoreo y conexiones para la comunicación.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="">
+      <div class="container">
+        <div class="row">
+          <div class="container"><h1>Costarica</h1></div>
+        </div>
+        <div class="row">
+          <div class="col-1-3">
+            <div>
+              <img
+                class="icon"
+                src="img/Inicio/Direccion-Icon-800px-x-800px.png"
+                alt=""
+              />
+              <p>Heredia, San Isidro</p>
+            </div>
+          </div>
+          <div class="col-1-3">
+            <div>
+              <img
+                class="icon"
+                src="img/Inicio/phone-Icon-800px-x-800px.png"
+                alt=""
+              />
+
+              <p>(506) 6135-3468</p>
+            </div>
+          </div>
+          <div class="col-1-3">
+            <div>
+              <img
+                class="icon"
+                src="img/Inicio/correo-Icon-800px-x-800px.png"
+                alt=""
+              />
+
+              <p>info@vallejobc.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1-3"><p>©Copyright 2021</p></div>
+          <div class="col-1-3"><p>Todos los Derechos Reservados</p></div>
+          <div class="col-1-3"><p>Política de Privacidad</p></div>
+        </div>
+        <div class="row">
+          <div class="container">
+            <div class="container">
+              <div class="row">
+                <div class="col-1-4">
+                  <a href="https://www.linkedin.com/company/grupovallejo/"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/LinkedIN-icon-800px-x-800px.png"
+                      alt="Linkdn"
+                  /></a>
+                </div>
+                <div class="col-1-4">
+                  <a href="https://www.facebook.com/vallejobc"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/Facebook-icon-800px-x-800px.png"
+                      alt="Facebook"
+                  /></a>
+                </div>
+
+                <div class="col-1-4">
+                  <a href="https://www.instagram.com/vallejobc/"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/instagram-icon-800px-x-800px.png"
+                      alt="Instagram"
+                  /></a>
+                </div>
+                <div class="col-1-4">
+                  <a href="https://wa.link/i1uqqu"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/whatsapp-icon-800px-x-800px.png"
+                      alt="Whatsapp"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="https://wa.link/i1uqqu"
+      ><img
+        class="icon-float"
+        src="img/Inicio/mensajeria-whatsapp-800px-x-322px.png"
+        alt="Whatsapp"
+    /></a>
+
+    <script src="js/nav.js"></script>
+    <script src="js/mobile-nav.js"></script>
+  </body>
+</html>
