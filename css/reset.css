@@ -164,7 +164,7 @@ select {
   vertical-align: middle;
 }
 .clearfix {
-  *zoom: 1;
+  *zoom: 0;
 }
 
 .clearfix:before,

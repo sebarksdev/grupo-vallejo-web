@@ -15,17 +15,23 @@
     <!-- <link rel="stylesheet" type="text/css" href="css/Grid.css" /> -->
     <link rel="" type="text/css" href="/css/fonts/stylesheet.css" />
     <link rel="" type="text/css" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
     <header>
-      <div class="logodiv">
-        <img
-          class="logo"
-          src="/img/Inicio/logotipo-inicio.png"
-          alt="Grupo Vallejo"
-        />
-      </div>
+      <section class="gray">
+        <div class="container">
+          <img
+            class="logo"
+            src="/img/Inicio/logotipo-inicio.png"
+            alt="Grupo Vallejo"
+          />
+        </div>
+      </section>
 
       <nav id="menu">
         <label for="tm" id="toggle-menu"
@@ -33,7 +39,7 @@
         ></label>
         <input type="checkbox" id="tm" />
         <ul class="main-menu clearfix">
-          <li><a class="br" href="#">Inicio</a></li>
+          <li><a class="br" href="index.html">Inicio</a></li>
           <li>
             <a class="br" href="#"
               >Servicios
@@ -54,93 +60,96 @@
                 </a>
                 <input type="checkbox" id="sm1" />
                 <ul class="sub-menu">
-                  <li><a href="Servicios/VBC.html">Empresarial</a></li>
+                  <li><a href="vbc.html">Empresarial</a></li>
                   <li>
-                    <a href="Servicios/VBC-corp.html">Corporativa</a>
+                    <a href="vbc-corp.html">Corporativa</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="Servicios/Varstate.html"
+                <a href="varstate.html"
                   >Asesoría en inversión Inmobiliaria (Varstate)</a
                 >
               </li>
               <li>
-                <a href="Servicios/Vauto.html">Automatización (Vauto)</a>
+                <a href="vauto.html">Automatización (Vauto)</a>
               </li>
               <li>
-                <a href="Servicios/Vadi.html"
-                  >Distribución y Logística (Vadi)</a
-                >
+                <a href="vadi.html">Distribución y Logística (Vadi)</a>
               </li>
               <li>
-                <a href="Servicios/V-EMI.html">Estrategia Comercial (V-EMI)</a>
+                <a href="v-emi.html">Estrategia Comercial (V-EMI)</a>
               </li>
             </ul>
           </li>
           <li><a class="br" href="quienesSomos.html">¿Quiénes somos?</a></li>
-          <li><a class="br" href="#">Blog</a></li>
+          <li><a class="br" href="blog.html">Blog</a></li>
           <li><a class="contact" href="#ir-a-formulario">Contáctenos</a></li>
         </ul>
       </nav>
 
-      <!-- The overlay -->
-      <div id="myNav" class="overlay">
-        <!-- Button to close the overlay navigation -->
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-          >&times;</a
-        >
+      <section class="mob-nav-bar">
+        <span class="ct" onclick="openNav()"
+          ><div class="container">
+            <img
+              class="mobile-menu-icon"
+              src="/img/barras-de-servicio.png"
+              alt=""
+            /></div
+        ></span>
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
 
-        <!-- Overlay content -->
-        <div class="overlay-content mobile">
-          <nav>
-            <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="quienesSomos.html">¿Quiénes somos?</a></li>
-              <li class="hover-servicios">
-                <a href="#">Servicios▼</a>
-                <ul class="ul-1">
-                  <li>
-                    <a href="#">VBC (Construcción) ►</a>
-                    <ul class="hover-vbc">
-                      <li><a href="Servicios/VBC.html">Empresarial</a></li>
-                      <li><a href="">Corporativo</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="/Servicios/Varstate.html"
-                      >Asesoría en inversión Inmobiliaria (Varstate)</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/Servicios/Vauto.html">Automatización (Vauto)</a>
-                  </li>
-                  <li>
-                    <a href="/Servicios/Vadi.html"
-                      >Distribución y Logística (Vadi)</a
-                    >
-                  </li>
-                  <li>
-                    <a href="/Servicios/V-EMI.html"
-                      >Estrategia Comercial (V-EMI)</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#"> Contáctenos</a></li>
-            </ul>
-          </nav>
+          <!-- Overlay content -->
+          <div class="container">
+            <div class="navbar">
+              <a href="index.html"> <b>Inicio</b></a>
+
+              <div class="subnav">
+                <button id="cambiar" class="subnavbtn">
+                  <b>Servicios</b> <i class="fa fa-caret-down"></i>
+                </button>
+
+                <div id="submenu-servicios" class="subnav-content">
+                  <div class="subnav dark-grey">
+                    <button id="cambiar2" class="subnavbtn dark-grey">
+                      VBC (Consultoría) <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id="submenu-servicios2" class="subnav-content">
+                      <a class="light-grey bp" href="vbc.html">Empresarial</a>
+                      <a class="light-grey bp" href="vbc-corp.html"
+                        >Corporativa</a
+                      >
+                    </div>
+                  </div>
+                  <a class="dark-grey" href="varstate.html"
+                    >Varstate (Asesoría en inversión Inmobiliaria)</a
+                  >
+                  <a class="dark-grey" href="vauto.html"
+                    >Vauto (Automatización)</a
+                  >
+                  <a class="dark-grey" href="vadi.html"
+                    >Vadi (Distribución y Logística)</a
+                  >
+                  <a class="dark-grey" href="v-emi.html"
+                    >V-EMI (Estrategia Comercial)</a
+                  >
+                </div>
+              </div>
+
+              <a href="quienesSomos.html"> <b>¿Quiénes somos?</b></a>
+              <a href="blog.html"> <b>Blog</b></a>
+              <a href="#ir-a-formulario"> <b>Contáctenos</b> </a>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <!-- Use any element to open/show the overlay navigation menu -->
-      <span class="ct" onclick="openNav()"
-        ><img class="mobile-menu-icon" src="/img/barras-de-servicio.png" alt=""
-      /></span>
+      </section>
     </header>
 
-    <div class="con">
+    <div class="container">
       <img
         class="subconimg"
         src="img/blogs/Sistema-de-Gestion-Integral-800px-x-600px.webp"
@@ -242,104 +251,87 @@
     </div>
 
     <footer class="">
-      <div class="footer">
-        <div>
-          <h1>Costa Rica</h1>
+      <div class="container">
+        <div class="row">
+          <div class="container"><h1>Costarica</h1></div>
         </div>
-        <div class="info">
-          <div class="info1">
+        <div class="row">
+          <div class="col-1-3">
             <div>
               <img
                 class="icon"
                 src="img/Inicio/Direccion-Icon-800px-x-800px.png"
                 alt=""
               />
-            </div>
-            <div>
               <p>Heredia, San Isidro</p>
             </div>
           </div>
-          <div class="info2">
+          <div class="col-1-3">
             <div>
               <img
                 class="icon"
                 src="img/Inicio/phone-Icon-800px-x-800px.png"
                 alt=""
               />
-            </div>
-            <div>
+
               <p>(506) 6135-3468</p>
             </div>
           </div>
-          <div class="info3">
+          <div class="col-1-3">
             <div>
               <img
                 class="icon"
                 src="img/Inicio/correo-Icon-800px-x-800px.png"
                 alt=""
               />
-            </div>
-            <div>
+
               <p>info@vallejobc.com</p>
             </div>
           </div>
         </div>
-        <div class="rights">
-          <div class="rights1">
-            <div>
-              <p>©Copyright 2021</p>
-            </div>
-          </div>
-          <div class="rights2">
-            <div>
-              <p>Todos los Derechos Reservados</p>
-            </div>
-          </div>
-          <div class="rights3">
-            <div>
-              <p>Política de Privacidad</p>
-            </div>
-          </div>
+        <div class="row">
+          <div class="col-1-3"><p>©Copyright 2021</p></div>
+          <div class="col-1-3"><p>Todos los Derechos Reservados</p></div>
+          <div class="col-1-3"><p>Política de Privacidad</p></div>
         </div>
-        <div class="social">
-          <div class="social1">
-            <div>
-              <a href="https://www.linkedin.com/company/grupovallejo/"
-                ><img
-                  class="social-icon"
-                  src="img/Inicio/LinkedIN-icon-800px-x-800px.png"
-                  alt="Linkdn"
-              /></a>
-            </div>
-          </div>
-          <div class="social2">
-            <div>
-              <a href="https://www.facebook.com/vallejobc"
-                ><img
-                  class="social-icon"
-                  src="img/Inicio/Facebook-icon-800px-x-800px.png"
-                  alt="Facebook"
-              /></a>
-            </div>
-          </div>
-          <div class="social3">
-            <div>
-              <a href="https://www.instagram.com/vallejobc/"
-                ><img
-                  class="social-icon"
-                  src="img/Inicio/instagram-icon-800px-x-800px.png"
-                  alt="Instagram"
-              /></a>
-            </div>
-          </div>
-          <div class="social4">
-            <div>
-              <a href="https://wa.link/i1uqqu"
-                ><img
-                  class="social-icon"
-                  src="img/Inicio/whatsapp-icon-800px-x-800px.png"
-                  alt="Whatsapp"
-              /></a>
+        <div class="row">
+          <div class="container">
+            <div class="container">
+              <div class="row">
+                <div class="col-1-4">
+                  <a href="https://www.linkedin.com/company/grupovallejo/"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/LinkedIN-icon-800px-x-800px.png"
+                      alt="Linkdn"
+                  /></a>
+                </div>
+                <div class="col-1-4">
+                  <a href="https://www.facebook.com/vallejobc"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/Facebook-icon-800px-x-800px.png"
+                      alt="Facebook"
+                  /></a>
+                </div>
+
+                <div class="col-1-4">
+                  <a href="https://www.instagram.com/vallejobc/"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/instagram-icon-800px-x-800px.png"
+                      alt="Instagram"
+                  /></a>
+                </div>
+                <div class="col-1-4">
+                  <a href="https://wa.link/i1uqqu"
+                    ><img
+                      class="social-icon"
+                      src="img/Inicio/whatsapp-icon-800px-x-800px.png"
+                      alt="Whatsapp"
+                  /></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -354,5 +346,6 @@
     /></a>
 
     <script src="js/nav.js"></script>
+    <script src="js/mobile-nav.js"></script>
   </body>
 </html>
