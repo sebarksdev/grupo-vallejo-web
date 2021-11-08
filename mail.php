@@ -1,6 +1,6 @@
 <?php
 
-$to = "sebastian.vallejo@vallejobc.com"; # <--- Your Email
+$to = "info@vallejobc.com"; # <--- Your Email
 $subject = "You received a mail from your website's contact form.";
 
 if ($_POST) {
